@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void EnQueue(int Queue[],int x, int &Rear, int capacity)
@@ -50,3 +51,4 @@ int main() {
     }
     return 0;
 }
+
