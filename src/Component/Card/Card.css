@@ -1,0 +1,70 @@
+.card {
+    height: 33%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow:rgb(0 0 0 / 9%) 0px 9px 12px, rgb(0 0 0 / 6%) 0px 6px 6px;
+    border: 1px solid blue;
+    cursor: pointer;
+  }
+  
+  .card-top {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .card-top-labels {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .card-top-labels label {
+    border-radius: 40px;
+    padding: 4px 12px;
+    background-color: gray;
+    color: #fff;
+    width: fit-content;
+  }
+  
+  .card-top-more {
+    width: 30px;
+    height: 20px;
+    transform: translateX(15px);
+    flex: 1;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  
+  .card:hover .card-top-more {
+    opacity: 1;
+  }
+  
+  .card-title {
+    flex: 1;
+    font-weight: bold;
+    font-size: px;
+    line-height: 1.875rem;
+    color: rgb(63, 63, 243);
+  }
+
+  .dropdown-menu {
+    min-width: 70px
+  }
+  .dropdown-menu .dropdown {
+    margin: 0;
+    padding: 0.375rem 0.88rem;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    min-width: 50px;
+  }
+
+  .dropdown-menu .dropdown:hover {
+    color: #fff;
+    background-color: #0062cc;
+  }

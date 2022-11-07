@@ -1,0 +1,67 @@
+.board {
+    min-width: 400px;
+    width: 400px;
+    height: 100%;
+    overflow-y: auto;
+    flex-basis: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    
+    color: #17394d;
+}
+
+.board-inner{
+    background-color: rgba(235, 246, 255, 0.767);
+    padding: 15px;
+    border-radius: 3px;
+}
+.board-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    padding-bottom: 5px;
+}
+  
+.board-header-title {
+    padding-right: 55%;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+  
+.board-header-title span {
+    color: rgb(145, 145, 145);
+}
+  
+.board-header-title-more {
+    cursor: pointer;
+    position: relative;
+}
+
+.board-cards {
+
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+.board-add-card {
+    border: 0.5px solid blue;
+    background-color: rgb(16, 100, 209);
+    font-weight:bold;
+    color: rgb(240, 231, 231);
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+}
